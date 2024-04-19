@@ -1,0 +1,4 @@
+enum SelectOption {
+  none,
+  selected,
+}
