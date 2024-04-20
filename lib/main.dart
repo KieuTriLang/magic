@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
         scrollDirection: Axis.horizontal,
         controller: _pageController,
         itemBuilder: (context, index) {
-          String nameImage = index % numberOfImage;
+          var nameImage = index % numberOfImage;
           return GestureDetector(
             onTap: () {
               if (selectOption == SelectOption.none) {
